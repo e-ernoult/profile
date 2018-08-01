@@ -8,77 +8,88 @@
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-  <div>
+  <div id="sidebar">
+    <ul class="list">
+      <li>
+        <a href="#resume"><i class="fas fa-file"></i></a>
+      </li>
+      <li>
+        <a href="#experiences"><i class="fas fa-briefcase"></i></a>
+      </li>
+      <li>
+        <a href="#footer"><i class="fas fa-question-circle"></i></a>
+      </li>
+    </ul>
+  </div>
+  <div id="page-content">
+    <div>
+      <div id="resume" class="box-white bio-header text-center">
+        <img src="images/eugene.jpeg" alt="Eugene Ernoult" class="img-circle">
+        <h1>Eugène Ernoult</h1>
+        <h2>Developer</h2>
+      </div>
+      <div class="box-white">
+        <h2>Description</h2>
+        <p>
+          Co-founded Pili Pop Labs - Language learning apps for kids (www.pilipop.com)
+          I sold and left the company last year
+          I always wanted to do more using code wether it's for Marketing Automation or to work on new project ideas.
+        </p>
+      </div>
+      <div class="box-white" id="box-small-height">
+        <ul class="list-inline text-center font-size-big no-margin">
+          <li><a href="https://twitter.com/e_ernoult" target="_blank"><i class="fab fa-twitter"></i> Twitter</a></li>
+          <li><a href="https://www.linkedin.com/in/eernoult/" target="_blank"><i class="fab fa-linkedin"></i> Linkedin</a></li>
+          <li><a href="https://github.com/e-ernoult" target="_blank"><i class="fab fa-github"></i> GitHub</a></li>
+        </ul>
+      </div>
 
-    <div id="resume" class="box-white bio-header text-center">
-      <img src="images/eugene.jpeg" alt="Eugene Ernoult" class="img-circle">
-      <h1>Eugène Ernoult</h1>
-      <h2>Developer</h2>
+      <div class="box-white" id="experiences">
+        <h2>Experience</h2>
+        <table>
+          <tbody>
+            <tr>
+              <td>
+                <img src="images/pilipop.jpg">
+              </td>
+              <td class="font-size-small">
+                <h3>Co-founder Pili Pop Labs</h3>
+                <p>Jan 2012 - Jul 2017</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <img src="images/fleuruspresse.jpg">
+              </td>
+              <td class="font-size-small">
+                <h3>Marketing Manager</h3>
+                <p>Jan 2017 - Jun 2017</p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <h2>Education</h2>
+        <table>
+          <tbody>
+            <tr>
+              <td>
+                <img src="images/essca.jpg">
+              </td>
+              <td class="font-size-small">
+                <h3>Master Corporate Finance</h3>
+                <p>ESSCA Angers 2005 - 2010</p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="box-bottom text-center font-size-small" id="footer">
+        <h2>About this page</h2>
+        <p>
+          Made with <i class="fas fa-heart"></i> @Le Wagon Full-Stack program
+        </p>
+      </div>
     </div>
-
-    <div class="box-white">
-      <h2>Description</h2>
-      <p>
-        Co-founded Pili Pop Labs - Language learning apps for kids (www.pilipop.com)
-        I sold and left the company last year
-        I always wanted to do more using code wether it's for Marketing Automation or to work on new project ideas.
-      </p>
-    </div>
-    <div class="box-white" id="box-small-height">
-      <ul class="list-inline text-center font-size-big no-margin">
-        <li><a href="https://twitter.com/e_ernoult" target="_blank"><i class="fab fa-twitter"></i> Twitter</a></li>
-        <li><a href="https://www.linkedin.com/in/eernoult/" target="_blank"><i class="fab fa-linkedin"></i> Linkedin</a></li>
-        <li><a href="https://github.com/e-ernoult" target="_blank"><i class="fab fa-github"></i> GitHub</a></li>
-      </ul>
-    </div>
-
-    <div class="box-white">
-      <h2>Experience</h2>
-      <table>
-        <tbody>
-          <tr>
-            <td>
-              <img src="images/pilipop.jpg">
-            </td>
-            <td class="font-size-small">
-              <h3>Co-founder Pili Pop Labs</h3>
-              <p>Jan 2012 - Jul 2017</p>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <img src="images/fleuruspresse.jpg">
-            </td>
-            <td class="font-size-small">
-              <h3>Marketing Manager</h3>
-              <p>Jan 2017 - Jun 2017</p>
-            </td>
-          </tr>
-        </tbody>
-      </table>
-      <h2>Education</h2>
-      <table>
-        <tbody>
-          <tr>
-            <td>
-              <img src="images/essca.jpg">
-            </td>
-            <td class="font-size-small">
-              <h3>Master Corporate Finance</h3>
-              <p>ESSCA Angers 2005 - 2010</p>
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-
-    <div class="box-bottom text-center font-size-small">
-      <h2>About this page</h2>
-      <p>
-        Developed during Le Wagon Full-Stack program
-      </p>
-    </div>
-
   </div>
 </body>
 </html>
