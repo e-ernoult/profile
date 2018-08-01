@@ -1,0 +1,133 @@
+body {
+  color: rgb(50, 50, 50);
+  font-family: 'Open Sans', sans-serif;
+  background-color: #F7F7F7;
+  margin-top: 30px;
+  line-height: auto;
+  font-weight: 300;
+}
+
+h1, h2, h3, h4 {
+  color: #DD5555;
+  font-family: 'Raleway', sans-serif;
+  line-height: 15px;
+}
+
+div img {
+  width: 70px;
+  height: 70px;
+  margin: 10px;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+  color: #DD5555;
+  opacity: 0.7;
+}
+
+a:hover {
+  opacity: 1;
+}
+
+.box-white {
+  padding: 10px 40px;
+  padding-bottom: 30px;
+  margin: auto;
+  box-shadow: 0px 1px 1px rgba(60, 60, 60, 0.3);
+  background-color: white;
+  width: 690px;
+}
+
+.bio-header {
+  background-image:
+  linear-gradient(rgba(255, 255, 255, 0.8),
+    rgba(255, 255, 255, 0.8)),
+    url("https://res.cloudinary.com/wagon/image/upload/v1511363534/jjj7wfv2qkfimzc3r5ml.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+.box-bottom {
+  padding: 10px 40px;
+  margin: 30px auto;
+  box-shadow: 0px 1px 1px rgba(60, 60, 60, 0.3);
+  background-color: white;
+  width: 690px;
+}
+
+
+.btn {
+  padding: 10px 15px;
+  background: #DD5555;
+  color: white;
+  display: block;
+  margin: auto;
+  opacity: 0.7;
+  width: fit-content;
+  border-radius: 3px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.no-margin {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.list-inline {
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline;
+  margin: 5px;
+}
+
+.font-size-big {
+  font-size: 20px;
+}
+
+.font-size-small {
+  font-size: 14px;
+}
+
+#resume img {
+  width: 150px;
+}
+
+#resume h1, #resume h2 {
+  color: black;
+}
+
+#box-small-height {
+  height: 10px 10px;
+}
+
+@media (max-width: 960px) {
+  .box-white, .box-bottom, .bio-header, #resume {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .box-white, .box-bottom, .bio-header, #resume {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .box-white, .box-bottom, .bio-header, #resume {
+    width: 300px;
+  }
+}
